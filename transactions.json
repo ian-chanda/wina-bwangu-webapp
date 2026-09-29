@@ -1,0 +1,2466 @@
+[
+  {
+    "id": "WB0000001",
+    "booth": "Wina1",
+    "location": "Lusaka CPD",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 964
+  },
+  {
+    "id": "WB0000002",
+    "booth": "Wina1",
+    "location": "Lusaka CPD",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 220
+  },
+  {
+    "id": "WB0000003",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 582
+  },
+  {
+    "id": "WB0000004",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zamtel Money",
+    "rate": 0.045,
+    "amount": 349
+  },
+  {
+    "id": "WB0000005",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 328
+  },
+  {
+    "id": "WB0000006",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 192
+  },
+  {
+    "id": "WB0000007",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zanaco",
+    "rate": 0.035,
+    "amount": 1519
+  },
+  {
+    "id": "WB0000008",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Zamtel Money",
+    "rate": 0.045,
+    "amount": 1113
+  },
+  {
+    "id": "WB0000009",
+    "booth": "Wina1",
+    "location": "Lusaka CPD",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 1999
+  },
+  {
+    "id": "WB0000010",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3810
+  },
+  {
+    "id": "WB0000011",
+    "booth": "Wina6",
+    "location": "Matero East",
+    "service": "Zamtel Money",
+    "rate": 0.045,
+    "amount": 3270
+  },
+  {
+    "id": "WB0000012",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zanaco",
+    "rate": 0.035,
+    "amount": 1092
+  },
+  {
+    "id": "WB0000013",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 1056
+  },
+  {
+    "id": "WB0000014",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 509
+  },
+  {
+    "id": "WB0000015",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 34
+  },
+  {
+    "id": "WB0000016",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 1658
+  },
+  {
+    "id": "WB0000017",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "Zamtel Money",
+    "rate": 0.045,
+    "amount": 2167
+  },
+  {
+    "id": "WB0000018",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2594
+  },
+  {
+    "id": "WB0000019",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3656
+  },
+  {
+    "id": "WB0000020",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 4030
+  },
+  {
+    "id": "WB0000021",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zanaco",
+    "rate": 0.035,
+    "amount": 989
+  },
+  {
+    "id": "WB0000022",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 4081
+  },
+  {
+    "id": "WB0000023",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 925
+  },
+  {
+    "id": "WB0000024",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 2312
+  },
+  {
+    "id": "WB0000025",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zanaco",
+    "rate": 0.035,
+    "amount": 3280
+  },
+  {
+    "id": "WB0000026",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 90
+  },
+  {
+    "id": "WB0000027",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 2556
+  },
+  {
+    "id": "WB0000028",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zanaco",
+    "rate": 0.035,
+    "amount": 673
+  },
+  {
+    "id": "WB0000029",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 4185
+  },
+  {
+    "id": "WB0000030",
+    "booth": "Wina1",
+    "location": "Lusaka CPD",
+    "service": "Zanaco",
+    "rate": 0.035,
+    "amount": 412
+  },
+  {
+    "id": "WB0000031",
+    "booth": "Wina1",
+    "location": "Lusaka CPD",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 310
+  },
+  {
+    "id": "WB0000032",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 4248
+  },
+  {
+    "id": "WB0000033",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 4105
+  },
+  {
+    "id": "WB0000034",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 1147
+  },
+  {
+    "id": "WB0000035",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zamtel Money",
+    "rate": 0.045,
+    "amount": 1815
+  },
+  {
+    "id": "WB0000036",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zanaco",
+    "rate": 0.035,
+    "amount": 1653
+  },
+  {
+    "id": "WB0000037",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 1045
+  },
+  {
+    "id": "WB0000038",
+    "booth": "Wina1",
+    "location": "Lusaka CPD",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 4364
+  },
+  {
+    "id": "WB0000039",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 2822
+  },
+  {
+    "id": "WB0000040",
+    "booth": "Wina6",
+    "location": "Matero East",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2046
+  },
+  {
+    "id": "WB0000041",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zamtel Money",
+    "rate": 0.045,
+    "amount": 1985
+  },
+  {
+    "id": "WB0000042",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 3023
+  },
+  {
+    "id": "WB0000043",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3728
+  },
+  {
+    "id": "WB0000044",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 58
+  },
+  {
+    "id": "WB0000045",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2744
+  },
+  {
+    "id": "WB0000046",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 1654
+  },
+  {
+    "id": "WB0000047",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 1331
+  },
+  {
+    "id": "WB0000048",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 801
+  },
+  {
+    "id": "WB0000049",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 967
+  },
+  {
+    "id": "WB0000050",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 1988
+  },
+  {
+    "id": "WB0000051",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3646
+  },
+  {
+    "id": "WB0000052",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 54
+  },
+  {
+    "id": "WB0000053",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "Zamtel Money",
+    "rate": 0.045,
+    "amount": 2121
+  },
+  {
+    "id": "WB0000054",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zanaco",
+    "rate": 0.035,
+    "amount": 564
+  },
+  {
+    "id": "WB0000055",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 1011
+  },
+  {
+    "id": "WB0000056",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 2950
+  },
+  {
+    "id": "WB0000057",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zanaco",
+    "rate": 0.035,
+    "amount": 57
+  },
+  {
+    "id": "WB0000058",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2382
+  },
+  {
+    "id": "WB0000059",
+    "booth": "Wina1",
+    "location": "Lusaka CPD",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 349
+  },
+  {
+    "id": "WB0000060",
+    "booth": "Wina1",
+    "location": "Lusaka CPD",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2479
+  },
+  {
+    "id": "WB0000061",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 1537
+  },
+  {
+    "id": "WB0000062",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zamtel Money",
+    "rate": 0.045,
+    "amount": 2802
+  },
+  {
+    "id": "WB0000063",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 1290
+  },
+  {
+    "id": "WB0000064",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 4331
+  },
+  {
+    "id": "WB0000065",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zanaco",
+    "rate": 0.035,
+    "amount": 1338
+  },
+  {
+    "id": "WB0000066",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 1477
+  },
+  {
+    "id": "WB0000067",
+    "booth": "Wina1",
+    "location": "Lusaka CPD",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3430
+  },
+  {
+    "id": "WB0000068",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 451
+  },
+  {
+    "id": "WB0000069",
+    "booth": "Wina6",
+    "location": "Matero East",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 80
+  },
+  {
+    "id": "WB0000070",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zanaco",
+    "rate": 0.035,
+    "amount": 2002
+  },
+  {
+    "id": "WB0000071",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3235
+  },
+  {
+    "id": "WB0000072",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 4156
+  },
+  {
+    "id": "WB0000073",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 22
+  },
+  {
+    "id": "WB0000074",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2156
+  },
+  {
+    "id": "WB0000075",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 2267
+  },
+  {
+    "id": "WB0000076",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zamtel Money",
+    "rate": 0.045,
+    "amount": 2419
+  },
+  {
+    "id": "WB0000077",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 1691
+  },
+  {
+    "id": "WB0000078",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2736
+  },
+  {
+    "id": "WB0000079",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 4282
+  },
+  {
+    "id": "WB0000080",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zamtel Money",
+    "rate": 0.045,
+    "amount": 2331
+  },
+  {
+    "id": "WB0000081",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 1405
+  },
+  {
+    "id": "WB0000082",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 945
+  },
+  {
+    "id": "WB0000083",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zanaco",
+    "rate": 0.035,
+    "amount": 688
+  },
+  {
+    "id": "WB0000084",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 189
+  },
+  {
+    "id": "WB0000085",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 3787
+  },
+  {
+    "id": "WB0000086",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zanaco",
+    "rate": 0.035,
+    "amount": 3407
+  },
+  {
+    "id": "WB0000087",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 1105
+  },
+  {
+    "id": "WB0000088",
+    "booth": "Wina6",
+    "location": "Matero East",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 174
+  },
+  {
+    "id": "WB0000089",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 1440
+  },
+  {
+    "id": "WB0000090",
+    "booth": "Wina6",
+    "location": "Matero East",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3344
+  },
+  {
+    "id": "WB0000091",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2676
+  },
+  {
+    "id": "WB0000092",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 812
+  },
+  {
+    "id": "WB0000093",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zanaco",
+    "rate": 0.035,
+    "amount": 4224
+  },
+  {
+    "id": "WB0000094",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 592
+  },
+  {
+    "id": "WB0000095",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 1662
+  },
+  {
+    "id": "WB0000096",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 1915
+  },
+  {
+    "id": "WB0000097",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 1866
+  },
+  {
+    "id": "WB0000098",
+    "booth": "Wina6",
+    "location": "Matero East",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 4320
+  },
+  {
+    "id": "WB0000099",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 228
+  },
+  {
+    "id": "WB0000100",
+    "booth": "Wina6",
+    "location": "Matero East",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3318
+  },
+  {
+    "id": "WB0000101",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3615
+  },
+  {
+    "id": "WB0000102",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 4156
+  },
+  {
+    "id": "WB0000103",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zamtel Money",
+    "rate": 0.045,
+    "amount": 1401
+  },
+  {
+    "id": "WB0000104",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2014
+  },
+  {
+    "id": "WB0000105",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 3475
+  },
+  {
+    "id": "WB0000106",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 2452
+  },
+  {
+    "id": "WB0000107",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zanaco",
+    "rate": 0.035,
+    "amount": 1720
+  },
+  {
+    "id": "WB0000108",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 118
+  },
+  {
+    "id": "WB0000109",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 779
+  },
+  {
+    "id": "WB0000110",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 1623
+  },
+  {
+    "id": "WB0000111",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2679
+  },
+  {
+    "id": "WB0000112",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zanaco",
+    "rate": 0.035,
+    "amount": 1976
+  },
+  {
+    "id": "WB0000113",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 974
+  },
+  {
+    "id": "WB0000114",
+    "booth": "Wina1",
+    "location": "Lusaka CPD",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2911
+  },
+  {
+    "id": "WB0000115",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zanaco",
+    "rate": 0.035,
+    "amount": 279
+  },
+  {
+    "id": "WB0000116",
+    "booth": "Wina6",
+    "location": "Matero East",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3646
+  },
+  {
+    "id": "WB0000117",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 855
+  },
+  {
+    "id": "WB0000118",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 1412
+  },
+  {
+    "id": "WB0000119",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2137
+  },
+  {
+    "id": "WB0000120",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 1800
+  },
+  {
+    "id": "WB0000121",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 1219
+  },
+  {
+    "id": "WB0000122",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 3582
+  },
+  {
+    "id": "WB0000123",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 760
+  },
+  {
+    "id": "WB0000124",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 2308
+  },
+  {
+    "id": "WB0000125",
+    "booth": "Wina1",
+    "location": "Lusaka CPD",
+    "service": "Zamtel Money",
+    "rate": 0.045,
+    "amount": 1941
+  },
+  {
+    "id": "WB0000126",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2068
+  },
+  {
+    "id": "WB0000127",
+    "booth": "Wina6",
+    "location": "Matero East",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 4242
+  },
+  {
+    "id": "WB0000128",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2587
+  },
+  {
+    "id": "WB0000129",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "Zamtel Money",
+    "rate": 0.045,
+    "amount": 4196
+  },
+  {
+    "id": "WB0000130",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 1463
+  },
+  {
+    "id": "WB0000131",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 2199
+  },
+  {
+    "id": "WB0000132",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2956
+  },
+  {
+    "id": "WB0000133",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 1663
+  },
+  {
+    "id": "WB0000134",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2525
+  },
+  {
+    "id": "WB0000135",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 4404
+  },
+  {
+    "id": "WB0000136",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 1012
+  },
+  {
+    "id": "WB0000137",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 69
+  },
+  {
+    "id": "WB0000138",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 4241
+  },
+  {
+    "id": "WB0000139",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 3379
+  },
+  {
+    "id": "WB0000140",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 3255
+  },
+  {
+    "id": "WB0000141",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zanaco",
+    "rate": 0.035,
+    "amount": 1705
+  },
+  {
+    "id": "WB0000142",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 1039
+  },
+  {
+    "id": "WB0000143",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 254
+  },
+  {
+    "id": "WB0000144",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 870
+  },
+  {
+    "id": "WB0000145",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 772
+  },
+  {
+    "id": "WB0000146",
+    "booth": "Wina1",
+    "location": "Lusaka CPD",
+    "service": "Zamtel Money",
+    "rate": 0.045,
+    "amount": 1791
+  },
+  {
+    "id": "WB0000147",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3320
+  },
+  {
+    "id": "WB0000148",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 4185
+  },
+  {
+    "id": "WB0000149",
+    "booth": "Wina1",
+    "location": "Lusaka CPD",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 100
+  },
+  {
+    "id": "WB0000150",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 3794
+  },
+  {
+    "id": "WB0000151",
+    "booth": "Wina6",
+    "location": "Matero East",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 498
+  },
+  {
+    "id": "WB0000152",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2566
+  },
+  {
+    "id": "WB0000153",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 4459
+  },
+  {
+    "id": "WB0000154",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3916
+  },
+  {
+    "id": "WB0000155",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 528
+  },
+  {
+    "id": "WB0000156",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 2067
+  },
+  {
+    "id": "WB0000157",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 1119
+  },
+  {
+    "id": "WB0000158",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 1209
+  },
+  {
+    "id": "WB0000159",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 1950
+  },
+  {
+    "id": "WB0000160",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 1268
+  },
+  {
+    "id": "WB0000161",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zanaco",
+    "rate": 0.035,
+    "amount": 1066
+  },
+  {
+    "id": "WB0000162",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 4419
+  },
+  {
+    "id": "WB0000163",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2065
+  },
+  {
+    "id": "WB0000164",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 2663
+  },
+  {
+    "id": "WB0000165",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2075
+  },
+  {
+    "id": "WB0000166",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Zamtel Money",
+    "rate": 0.045,
+    "amount": 3284
+  },
+  {
+    "id": "WB0000167",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 425
+  },
+  {
+    "id": "WB0000168",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zanaco",
+    "rate": 0.035,
+    "amount": 1856
+  },
+  {
+    "id": "WB0000169",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 405
+  },
+  {
+    "id": "WB0000170",
+    "booth": "Wina1",
+    "location": "Lusaka CPD",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 608
+  },
+  {
+    "id": "WB0000171",
+    "booth": "Wina1",
+    "location": "Lusaka CPD",
+    "service": "Zamtel Money",
+    "rate": 0.045,
+    "amount": 4143
+  },
+  {
+    "id": "WB0000172",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 681
+  },
+  {
+    "id": "WB0000173",
+    "booth": "Wina6",
+    "location": "Matero East",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 4405
+  },
+  {
+    "id": "WB0000174",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3980
+  },
+  {
+    "id": "WB0000175",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "Zamtel Money",
+    "rate": 0.045,
+    "amount": 2510
+  },
+  {
+    "id": "WB0000176",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2807
+  },
+  {
+    "id": "WB0000177",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 474
+  },
+  {
+    "id": "WB0000178",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 75
+  },
+  {
+    "id": "WB0000179",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 2581
+  },
+  {
+    "id": "WB0000180",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3938
+  },
+  {
+    "id": "WB0000181",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3419
+  },
+  {
+    "id": "WB0000182",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 1047
+  },
+  {
+    "id": "WB0000183",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 205
+  },
+  {
+    "id": "WB0000184",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 495
+  },
+  {
+    "id": "WB0000185",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 3107
+  },
+  {
+    "id": "WB0000186",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 2597
+  },
+  {
+    "id": "WB0000187",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zanaco",
+    "rate": 0.035,
+    "amount": 3049
+  },
+  {
+    "id": "WB0000188",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2713
+  },
+  {
+    "id": "WB0000189",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 1727
+  },
+  {
+    "id": "WB0000190",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 2060
+  },
+  {
+    "id": "WB0000191",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 268
+  },
+  {
+    "id": "WB0000192",
+    "booth": "Wina1",
+    "location": "Lusaka CPD",
+    "service": "Zamtel Money",
+    "rate": 0.045,
+    "amount": 2327
+  },
+  {
+    "id": "WB0000193",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3027
+  },
+  {
+    "id": "WB0000194",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 897
+  },
+  {
+    "id": "WB0000195",
+    "booth": "Wina1",
+    "location": "Lusaka CPD",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 2275
+  },
+  {
+    "id": "WB0000196",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 1246
+  },
+  {
+    "id": "WB0000197",
+    "booth": "Wina6",
+    "location": "Matero East",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2768
+  },
+  {
+    "id": "WB0000198",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3082
+  },
+  {
+    "id": "WB0000199",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 4307
+  },
+  {
+    "id": "WB0000200",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3664
+  },
+  {
+    "id": "WB0000201",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 3274
+  },
+  {
+    "id": "WB0000202",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 2854
+  },
+  {
+    "id": "WB0000203",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 1253
+  },
+  {
+    "id": "WB0000204",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 812
+  },
+  {
+    "id": "WB0000205",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 962
+  },
+  {
+    "id": "WB0000206",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 2219
+  },
+  {
+    "id": "WB0000207",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zanaco",
+    "rate": 0.035,
+    "amount": 4407
+  },
+  {
+    "id": "WB0000208",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3825
+  },
+  {
+    "id": "WB0000209",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2162
+  },
+  {
+    "id": "WB0000210",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 883
+  },
+  {
+    "id": "WB0000211",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 1506
+  },
+  {
+    "id": "WB0000212",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Zamtel Money",
+    "rate": 0.045,
+    "amount": 394
+  },
+  {
+    "id": "WB0000213",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 4272
+  },
+  {
+    "id": "WB0000214",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zanaco",
+    "rate": 0.035,
+    "amount": 4187
+  },
+  {
+    "id": "WB0000215",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 913
+  },
+  {
+    "id": "WB0000216",
+    "booth": "Wina1",
+    "location": "Lusaka CPD",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 3651
+  },
+  {
+    "id": "WB0000217",
+    "booth": "Wina1",
+    "location": "Lusaka CPD",
+    "service": "Zamtel Money",
+    "rate": 0.045,
+    "amount": 1000
+  },
+  {
+    "id": "WB0000218",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 839
+  },
+  {
+    "id": "WB0000219",
+    "booth": "Wina6",
+    "location": "Matero East",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 1851
+  },
+  {
+    "id": "WB0000220",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 1341
+  },
+  {
+    "id": "WB0000221",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "Zamtel Money",
+    "rate": 0.045,
+    "amount": 3150
+  },
+  {
+    "id": "WB0000222",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3050
+  },
+  {
+    "id": "WB0000223",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 4489
+  },
+  {
+    "id": "WB0000224",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3432
+  },
+  {
+    "id": "WB0000225",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 136
+  },
+  {
+    "id": "WB0000226",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2318
+  },
+  {
+    "id": "WB0000227",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 4327
+  },
+  {
+    "id": "WB0000228",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 1653
+  },
+  {
+    "id": "WB0000229",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 20
+  },
+  {
+    "id": "WB0000230",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 1219
+  },
+  {
+    "id": "WB0000231",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 1508
+  },
+  {
+    "id": "WB0000232",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 1205
+  },
+  {
+    "id": "WB0000233",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zanaco",
+    "rate": 0.035,
+    "amount": 1589
+  },
+  {
+    "id": "WB0000234",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 1280
+  },
+  {
+    "id": "WB0000235",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 335
+  },
+  {
+    "id": "WB0000236",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 2268
+  },
+  {
+    "id": "WB0000237",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 2815
+  },
+  {
+    "id": "WB0000238",
+    "booth": "Wina1",
+    "location": "Lusaka CPD",
+    "service": "Zamtel Money",
+    "rate": 0.045,
+    "amount": 4414
+  },
+  {
+    "id": "WB0000239",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 654
+  },
+  {
+    "id": "WB0000240",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2180
+  },
+  {
+    "id": "WB0000241",
+    "booth": "Wina1",
+    "location": "Lusaka CPD",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 2869
+  },
+  {
+    "id": "WB0000242",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 3757
+  },
+  {
+    "id": "WB0000243",
+    "booth": "Wina6",
+    "location": "Matero East",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2038
+  },
+  {
+    "id": "WB0000244",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 1344
+  },
+  {
+    "id": "WB0000245",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 526
+  },
+  {
+    "id": "WB0000246",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 192
+  },
+  {
+    "id": "WB0000247",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 866
+  },
+  {
+    "id": "WB0000248",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 3568
+  },
+  {
+    "id": "WB0000249",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 729
+  },
+  {
+    "id": "WB0000250",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3331
+  },
+  {
+    "id": "WB0000251",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 336
+  },
+  {
+    "id": "WB0000252",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 976
+  },
+  {
+    "id": "WB0000253",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zanaco",
+    "rate": 0.035,
+    "amount": 89
+  },
+  {
+    "id": "WB0000254",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 630
+  },
+  {
+    "id": "WB0000255",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3161
+  },
+  {
+    "id": "WB0000256",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 4200
+  },
+  {
+    "id": "WB0000257",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3887
+  },
+  {
+    "id": "WB0000258",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Zamtel Money",
+    "rate": 0.045,
+    "amount": 4421
+  },
+  {
+    "id": "WB0000259",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 1863
+  },
+  {
+    "id": "WB0000260",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zanaco",
+    "rate": 0.035,
+    "amount": 2465
+  },
+  {
+    "id": "WB0000261",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3775
+  },
+  {
+    "id": "WB0000262",
+    "booth": "Wina1",
+    "location": "Lusaka CPD",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 2897
+  },
+  {
+    "id": "WB0000263",
+    "booth": "Wina1",
+    "location": "Lusaka CPD",
+    "service": "Zamtel Money",
+    "rate": 0.045,
+    "amount": 3994
+  },
+  {
+    "id": "WB0000264",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 586
+  },
+  {
+    "id": "WB0000265",
+    "booth": "Wina6",
+    "location": "Matero East",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 2562
+  },
+  {
+    "id": "WB0000266",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3867
+  },
+  {
+    "id": "WB0000267",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "Zamtel Money",
+    "rate": 0.045,
+    "amount": 4208
+  },
+  {
+    "id": "WB0000268",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 4471
+  },
+  {
+    "id": "WB0000269",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 303
+  },
+  {
+    "id": "WB0000270",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 4261
+  },
+  {
+    "id": "WB0000271",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 1122
+  },
+  {
+    "id": "WB0000272",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 1396
+  },
+  {
+    "id": "WB0000273",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 905
+  },
+  {
+    "id": "WB0000274",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 4002
+  },
+  {
+    "id": "WB0000275",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 1591
+  },
+  {
+    "id": "WB0000276",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3353
+  },
+  {
+    "id": "WB0000277",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 3364
+  },
+  {
+    "id": "WB0000278",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 4129
+  },
+  {
+    "id": "WB0000279",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zanaco",
+    "rate": 0.035,
+    "amount": 1003
+  },
+  {
+    "id": "WB0000280",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2475
+  },
+  {
+    "id": "WB0000281",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 3597
+  },
+  {
+    "id": "WB0000282",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 1659
+  },
+  {
+    "id": "WB0000283",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 4163
+  },
+  {
+    "id": "WB0000284",
+    "booth": "Wina1",
+    "location": "Lusaka CPD",
+    "service": "Zamtel Money",
+    "rate": 0.045,
+    "amount": 487
+  },
+  {
+    "id": "WB0000285",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3790
+  },
+  {
+    "id": "WB0000286",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2186
+  },
+  {
+    "id": "WB0000287",
+    "booth": "Wina1",
+    "location": "Lusaka CPD",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 1894
+  },
+  {
+    "id": "WB0000288",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 1458
+  },
+  {
+    "id": "WB0000289",
+    "booth": "Wina6",
+    "location": "Matero East",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 875
+  },
+  {
+    "id": "WB0000290",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 189
+  },
+  {
+    "id": "WB0000291",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 4479
+  },
+  {
+    "id": "WB0000292",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3733
+  },
+  {
+    "id": "WB0000293",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 640
+  },
+  {
+    "id": "WB0000294",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 413
+  },
+  {
+    "id": "WB0000295",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 880
+  },
+  {
+    "id": "WB0000296",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2921
+  },
+  {
+    "id": "WB0000297",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3428
+  },
+  {
+    "id": "WB0000298",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "MTN Money",
+    "rate": 0.06,
+    "amount": 4103
+  },
+  {
+    "id": "WB0000299",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zanaco",
+    "rate": 0.035,
+    "amount": 2610
+  },
+  {
+    "id": "WB0000300",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3813
+  },
+  {
+    "id": "WB0000301",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 1899
+  },
+  {
+    "id": "WB0000302",
+    "booth": "Wina2",
+    "location": "Libala",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 1284
+  },
+  {
+    "id": "WB0000303",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2928
+  },
+  {
+    "id": "WB0000304",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Zamtel Money",
+    "rate": 0.045,
+    "amount": 301
+  },
+  {
+    "id": "WB0000305",
+    "booth": "Wina5",
+    "location": "Woodlands",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 3672
+  },
+  {
+    "id": "WB0000306",
+    "booth": "Wina3",
+    "location": "Kabwata",
+    "service": "Zanaco",
+    "rate": 0.035,
+    "amount": 1542
+  },
+  {
+    "id": "WB0000307",
+    "booth": "Wina4",
+    "location": "Mandevu",
+    "service": "Airtel Money",
+    "rate": 0.05,
+    "amount": 2001
+  },
+  {
+    "id": "WB0000308",
+    "booth": "Wina1",
+    "location": "Lusaka CPD",
+    "service": "FNB",
+    "rate": 0.04,
+    "amount": 3166
+  }
+]
