@@ -1,2 +1,8 @@
 # AI working memory — not part of the deliverable
 PROJECT_MEMORY.md
+
+# Team briefs / assignment instructions — never push these
+info/
+
+# macOS
+.DS_Store

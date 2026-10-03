@@ -100,3 +100,13 @@ function getGrandTotals(transactions) {
     totalCapital: totalCapital
   };
 }
+
+// looks up a booth's location
+function getBoothLocation(boothID) {
+  return booths[boothID];
+}
+
+// returns only the services a booth offers
+function getBoothServices(boothID) {
+  return boothServices[boothID];
+}
