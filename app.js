@@ -21,4 +21,10 @@ recordBtn.addEventListener("click", showRecord);
 dashBtn.addEventListener("click", showDashboard);
 
 
+function getBoothLocation(boothID) {
+  return booths[boothID];
+}
 
+function getBoothServices(boothID) {
+  return boothServices[boothID];
+}
