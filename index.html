@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-
-<html lang = "en">
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
   <header>
     <h1>Wina Bwangu</h1>
     <nav>
@@ -19,18 +18,64 @@
 
   <main>
     <section id="record-transaction">
-      <p>Put the form stuff here</p>
+      <form id="transactionForm">
+        <h2>New transaction</h2>
+
+        <div class="field">
+          <label for="boothSelect">Mobile booth</label>
+          <select id="boothSelect" required>
+            <option value="">Select booth</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="locationDisplay">Location</label>
+          <input id="locationDisplay" readonly placeholder="Shown after you pick a booth">
+        </div>
+
+        <div class="field">
+          <label for="serviceSelect">Service</label>
+          <select id="serviceSelect" required disabled>
+            <option value="">Select booth first</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="rateDisplay">Revenue per Kwacha</label>
+          <input id="rateDisplay" readonly placeholder="Shown after you pick a service">
+        </div>
+
+        <div class="field">
+          <label for="amountInput">Transaction amount (K, VAT-inclusive)</label>
+          <input id="amountInput" type="number" min="1" step="0.01" inputmode="decimal" placeholder="e.g. 964" required>
+        </div>
+
+        <div class="field">
+          <label for="afterTaxDisplay">Amount after tax / VAT</label>
+          <input id="afterTaxDisplay" readonly placeholder="Calculated from the amount">
+        </div>
+
+        <div class="field">
+          <label for="idDisplay">Transaction ID</label>
+          <input id="idDisplay" readonly>
+        </div>
+
+        <div class="actions">
+          <button type="submit" class="primary">Save transaction</button>
+          <button type="button" id="clearBtn">Clear form</button>
+        </div>
+      </form>
     </section>
 
-    <section id = "dashboard" class="hidden">
+    <section id="dashboard" class="hidden">
       <p>Put the dashboard here please</p>
     </section>
   </main>
 
   <script src="data.js"></script>
   <script src="app.js"></script>
+  <script src="forms.js"></script>
   <script src="chart.js"></script>
 
 </body>
 </html>
-
