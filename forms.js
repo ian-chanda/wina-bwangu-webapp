@@ -69,20 +69,50 @@
   // the monthly-limit credit check) on top of this. ----
   form.addEventListener('submit', ev => {
     ev.preventDefault();
-
+  
+    // Get values from the form
+    const booth = boothSelect.value;
+    const service = serviceSelect.value;
+    const amount = Number(amountInput.value);
+  
+    // Role 5 validation
+    const error = validateTransaction({
+      booth,
+      service,
+      amount
+    });
+  
+    // Stop if validation fails
+    if (error) {
+      showToast(error, 'error');
+      return;
+    }
+  
+    // Create transaction after validation passes
     const record = {
       id: generateTransactionId(transactions),
-      booth: boothSelect.value,
-      location: getBoothLocation(boothSelect.value),
-      service: serviceSelect.value,
-      rate: services[serviceSelect.value].rate,
-      amount: Number(amountInput.value)
+      booth: booth,
+      location: getBoothLocation(booth),
+      service: service,
+      rate: services[service].rate,
+      amount: amount
     };
+  
+    // Save transaction
     transactions.push(record);
-
-    document.dispatchEvent(new CustomEvent('transaction:added', { detail: record })); // hook for Role 6's dashboard
-    if (typeof refreshDashboard === 'function') refreshDashboard();
-
+  
+    // Role 5 success feedback
+    showToast('Transaction saved successfully!', 'success');
+  
+    // Role 6 dashboard hook
+    document.dispatchEvent(
+      new CustomEvent('transaction:added', { detail: record })
+    );
+  
+    if (typeof refreshDashboard === 'function') {
+      refreshDashboard();
+    }
+  
     resetForm();
   });
 
