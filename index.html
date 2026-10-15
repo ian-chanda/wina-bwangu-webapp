@@ -68,15 +68,68 @@
     </section>
 
     <section id="dashboard" class="hidden">
-      <p>Put the dashboard here please</p>
+      <h2>Dashboard</h2>
+      <p class="intro">Everything below is worked out from the transactions recorded so far, and it updates when you save a new one.</p>
+
+      <!-- headline numbers (part i of the case study) -->
+      <div class="cards">
+        <div class="card"><span class="card-label">Transactions</span><strong id="sumCount">0</strong></div>
+        <div class="card"><span class="card-label">Total revenue</span><strong id="sumRevenue">K0.00</strong></div>
+        <div class="card"><span class="card-label">Capital needed per month</span><strong id="sumCapital">K0.00</strong></div>
+        <div class="card"><span class="card-label">Total VAT owed</span><strong id="sumTax">K0.00</strong></div>
+      </div>
+
+      <!-- part f: cumulative total + amount remaining per service -->
+      <h3>Service limits (is there enough credit?)</h3>
+      <div class="table-wrap">
+        <table id="limitTable">
+          <thead><tr><th>Service</th><th>Monthly limit</th><th>Used so far</th><th>Remaining</th><th>Limit used</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <div class="check-box">
+        <strong>Quick credit check:</strong>
+        <select id="checkService"></select>
+        <input id="checkAmount" type="number" min="1" placeholder="Amount (K)">
+        <button type="button" id="checkBtn">Check</button>
+        <span id="checkResult"></span>
+      </div>
+
+      <!-- part g: revenue per booth, part d: tax data bars -->
+      <h3>Booth performance and tax</h3>
+      <div class="table-wrap">
+        <table id="boothTable">
+          <thead><tr><th>Booth</th><th>Location</th><th>Transactions</th><th>Amount handled</th><th>Revenue earned</th><th>VAT to pay</th><th>Share of VAT</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <!-- part h: how often each service is used at each booth -->
+      <h3>Service frequency per booth</h3>
+      <div class="table-wrap">
+        <table id="freqTable">
+          <thead></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <!-- part j: pie charts -->
+      <h3>Charts</h3>
+      <div class="charts">
+        <div class="chart-box"><h4>Total revenue vs capital</h4><canvas id="pieTotals"></canvas></div>
+        <div class="chart-box"><h4>Revenue by booth</h4><canvas id="pieBooths"></canvas></div>
+      </div>
     </section>
   </main>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
   <script src="data.js"></script>
   <script src="app.js"></script>
   <script src="validation.js"></script>
   <script src="forms.js"></script>
   <script src="chart.js"></script>
+  <script src="dashboard.js"></script>
 
 </body>
 </html>

@@ -108,3 +108,52 @@ section {
 .toast-error {
   background: #dc3545;
 }
+
+/* Role 6 - Dashboard */
+main:has(#dashboard:not(.hidden)) { max-width: 1100px; }
+#dashboard h3 { margin: 28px 0 8px; color: var(--primary); }
+#dashboard .intro { color: #555; margin-top: 0; }
+
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; }
+.card {
+  background: #f7f9fc;
+  border-left: 4px solid var(--primary);
+  border-radius: 6px;
+  padding: 12px 14px;
+  display: grid;
+  gap: 4px;
+}
+.card-label { font-size: 0.8rem; color: #555; }
+.card strong { font-size: 1.3rem; }
+
+.table-wrap { overflow-x: auto; }
+#dashboard table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+#dashboard th, #dashboard td { padding: 8px 10px; text-align: right; border-bottom: 1px solid #e4e4e4; white-space: nowrap; }
+#dashboard th:first-child, #dashboard td:first-child,
+#dashboard th:nth-child(2), #dashboard td:nth-child(2) { text-align: left; }
+#dashboard thead th { background: var(--primary); color: white; }
+#dashboard tfoot td { font-weight: bold; background: #f0f0f0; }
+#freqTable th, #freqTable td { text-align: center; }
+#freqTable th:first-child, #freqTable td:first-child { text-align: left; }
+
+/* data bars */
+.bar-cell { min-width: 140px; text-align: left !important; }
+.bar { background: #e6e6e6; border-radius: 4px; height: 16px; position: relative; overflow: hidden; }
+.bar-fill { height: 100%; background: var(--primary); }
+.bar-fill.warn { background: var(--secondary); }
+.bar-fill.danger { background: #dc3545; }
+.bar-text { font-size: 0.75rem; color: #444; }
+
+.neg { color: #dc3545; font-weight: bold; }
+
+.check-box { margin-top: 12px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.check-box select, .check-box input { padding: 6px 8px; font: inherit; border: 1px solid #ccc; border-radius: 6px; }
+.check-box button { padding: 6px 14px; font: inherit; font-weight: bold; border: none; border-radius: 6px; background: var(--primary); color: white; cursor: pointer; }
+.check-box button:hover { background: var(--secondary); }
+#checkResult.ok { color: #198754; font-weight: bold; }
+#checkResult.bad { color: #dc3545; font-weight: bold; }
+
+.charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+.chart-box { background: #f7f9fc; border-radius: 8px; padding: 12px; }
+.chart-box h4 { margin: 0 0 8px; text-align: center; }
+.chart-box canvas { max-height: 320px; }
