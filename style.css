@@ -40,6 +40,27 @@ nav button:hover {
   color: white;
 }
 
+.user-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-box button {
+  padding: 8px 16px;
+  border: 1px solid white;
+  border-radius: 6px;
+  background: transparent;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.user-box button:hover {
+  background: var(--secondary);
+  border-color: var(--secondary);
+}
+
 main {
   max-width: 900px;
   margin: 24px auto;

@@ -1,0 +1,190 @@
+/* Wina Bwangu - auth page. Uses the same palette, font and shapes as style.css */
+:root {
+  --primary: #2b6cb0;
+  --secondary: #ed8936;
+}
+
+* { box-sizing: border-box; }
+
+body.auth-page {
+  margin: 0;
+  min-height: 100vh;
+  background: #f4f4f4;
+  color: #222;
+  font-family: system-ui, Arial, sans-serif;
+}
+
+/* same header bar as the main app */
+.auth-page header {
+  background: var(--primary);
+  color: white;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.auth-page header h1 { margin: 0; font-size: 22px; }
+
+.auth-main {
+  display: flex;
+  justify-content: center;
+  padding: 24px 16px;
+}
+
+.container {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  position: relative;
+  overflow: hidden;
+  width: 768px;
+  max-width: 100%;
+  min-height: 520px;
+}
+
+.form-container {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transition: all 0.6s ease-in-out;
+}
+
+.sign-in-container { left: 0; width: 50%; z-index: 2; }
+.container.right-panel-active .sign-in-container { transform: translateX(100%); }
+
+.sign-up-container { left: 0; width: 50%; opacity: 0; z-index: 1; }
+.container.right-panel-active .sign-up-container {
+  transform: translateX(100%);
+  opacity: 1;
+  z-index: 5;
+  animation: show 0.6s;
+}
+
+@keyframes show {
+  0%, 49.99% { opacity: 0; z-index: 1; }
+  50%, 100% { opacity: 1; z-index: 5; }
+}
+
+form {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  height: 100%;
+  padding: 0 36px;
+  text-align: center;
+}
+
+form h2 { margin: 0 0 4px; color: var(--primary); }
+.hint { font-size: 0.85rem; color: #555; margin-bottom: 10px; }
+
+input {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px 12px;
+  font: inherit;
+  color: inherit;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+input:focus { border-color: var(--primary); box-shadow: 0 0 0 2px rgba(43, 108, 176, 0.2); }
+input.invalid { border-color: #dc3545; }
+
+button {
+  margin-top: 10px;
+  padding: 10px 16px;
+  font: inherit;
+  font-weight: bold;
+  color: white;
+  background: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:hover { background: var(--secondary); border-color: var(--secondary); }
+button:focus-visible { outline: 2px solid var(--secondary); outline-offset: 2px; }
+
+button.ghost { background: transparent; border-color: white; }
+button.ghost:hover { background: var(--secondary); border-color: var(--secondary); }
+
+.message { min-height: 18px; margin: 6px 0 0; font-size: 0.85rem; }
+.message.error { color: #dc3545; font-weight: bold; }
+.message.success { color: #198754; font-weight: bold; }
+
+/* Sliding overlay */
+.overlay-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  transition: transform 0.6s ease-in-out;
+  z-index: 100;
+}
+.container.right-panel-active .overlay-container { transform: translateX(-100%); }
+
+.overlay {
+  background: linear-gradient(135deg, var(--primary), #1f4f86);
+  color: white;
+  position: relative;
+  left: -100%;
+  height: 100%;
+  width: 200%;
+  transform: translateX(0);
+  transition: transform 0.6s ease-in-out;
+}
+.container.right-panel-active .overlay { transform: translateX(50%); }
+
+.overlay-panel {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 36px;
+  text-align: center;
+  transform: translateX(0);
+  transition: transform 0.6s ease-in-out;
+}
+.overlay-left { transform: translateX(-20%); }
+.container.right-panel-active .overlay-left { transform: translateX(0); }
+.overlay-right { right: 0; transform: translateX(0); }
+.container.right-panel-active .overlay-right { transform: translateX(20%); }
+
+.overlay-panel h2 { margin: 0 0 8px; color: white; }
+.overlay-panel p { margin: 0 0 16px; line-height: 1.4; }
+
+.mobile-switch { display: none; }
+
+/* Phones: no sliding overlay, just swap the two forms */
+@media (max-width: 700px) {
+  .container { min-height: 640px; }
+  .overlay-container { display: none; }
+
+  .form-container { width: 100%; }
+  .sign-in-container,
+  .container.right-panel-active .sign-in-container { transform: none; }
+  .container.right-panel-active .sign-in-container {
+    opacity: 0;
+    z-index: 1;
+    pointer-events: none;
+  }
+  .container.right-panel-active .sign-up-container { transform: none; }
+
+  .mobile-switch {
+    display: block;
+    margin-top: 14px;
+    font-size: 0.9rem;
+    color: var(--primary);
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .mobile-switch:hover { color: var(--secondary); }
+}

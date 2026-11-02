@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wina Bwangu | Sign In / Sign Up</title>
+  <link rel="stylesheet" href="auth.css">
+</head>
+<body class="auth-page">
+
+  <header>
+    <h1>Wina Bwangu</h1>
+  </header>
+
+  <main class="auth-main">
+  <div class="container" id="container">
+
+    <!-- SIGN UP -->
+    <div class="form-container sign-up-container">
+      <form id="signUpForm" novalidate>
+        <h2>Create Account</h2>
+        <span class="hint">Use your phone number to register</span>
+
+        <input type="text" id="suName" placeholder="Full name" autocomplete="name">
+        <input type="tel" id="suPhone" placeholder="Phone (e.g. 0977123456)" autocomplete="tel">
+        <input type="email" id="suEmail" placeholder="Email" autocomplete="email">
+        <input type="password" id="suPassword" placeholder="Password (min 6 characters)" autocomplete="new-password">
+        <input type="password" id="suConfirm" placeholder="Confirm password" autocomplete="new-password">
+
+        <p class="message" id="suMessage" role="alert"></p>
+        <button type="submit">Sign Up</button>
+        <a href="#" class="mobile-switch" id="mobileToSignIn">Already have an account? Sign In</a>
+      </form>
+    </div>
+
+    <!-- SIGN IN -->
+    <div class="form-container sign-in-container">
+      <form id="signInForm" novalidate>
+        <h2>Sign In</h2>
+        <span class="hint">Welcome back to Wina Bwangu</span>
+
+        <input type="email" id="siEmail" placeholder="Email" autocomplete="email">
+        <input type="password" id="siPassword" placeholder="Password" autocomplete="current-password">
+
+        <p class="message" id="siMessage" role="alert"></p>
+        <button type="submit">Login</button>
+        <a href="#" class="mobile-switch" id="mobileToSignUp">New here? Create an account</a>
+      </form>
+    </div>
+
+    <!-- SLIDING OVERLAY -->
+    <div class="overlay-container">
+      <div class="overlay">
+        <div class="overlay-panel overlay-left">
+          <h2>Welcome Back!</h2>
+          <p>Already registered? Sign in to continue.</p>
+          <button class="ghost" id="signIn" type="button">Sign In</button>
+        </div>
+        <div class="overlay-panel overlay-right">
+          <h2>Hello, Friend!</h2>
+          <p>New to Wina Bwangu? Create an account and get started.</p>
+          <button class="ghost" id="signUp" type="button">Sign Up</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </main>
+
+  <script src="auth.js"></script>
+</body>
+</html>
