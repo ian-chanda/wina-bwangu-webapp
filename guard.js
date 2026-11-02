@@ -1,30 +1,42 @@
-// Login guard + logout (works with auth.html / auth.js).
-// Load this in <head> of every protected page so signed-out visitors are sent to the login page.
-(function () {
-  const SESSION_KEY = 'wb_currentUser';
-  const LOGIN_PAGE = 'auth.html';
+(() => {
+  const LOGIN_PAGE = "/auth.html";
 
-  let user = null;
-  try { user = JSON.parse(sessionStorage.getItem(SESSION_KEY)); } catch (e) { user = null; }
+  document.documentElement.classList.add("auth-pending");
 
-  if (!user) {
-    window.location.replace(LOGIN_PAGE);
-    return;
-  }
-
-  // Available to other scripts if they need to know who is signed in
-  window.currentUser = user;
-
-  document.addEventListener('DOMContentLoaded', function () {
-    const nameEl = document.getElementById('userName');
-    const logoutBtn = document.getElementById('logoutBtn');
+  function initHeader(user) {
+    const nameEl = document.getElementById("userName");
+    const logoutBtn = document.getElementById("logoutBtn");
 
     if (nameEl) nameEl.textContent = user.name;
     if (logoutBtn) {
-      logoutBtn.addEventListener('click', function () {
-        sessionStorage.removeItem(SESSION_KEY);
-        window.location.replace(LOGIN_PAGE);
+      logoutBtn.addEventListener("click", async () => {
+        try {
+          await WB.logout();
+        } finally {
+          window.location.replace(LOGIN_PAGE);
+        }
       });
     }
-  });
+  }
+
+  function whenReady(callback) {
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", callback, { once: true });
+    } else {
+      callback();
+    }
+  }
+
+  async function checkSession() {
+    try {
+      const response = await WB.me();
+      window.currentUser = response.user;
+      document.documentElement.classList.remove("auth-pending");
+      whenReady(() => initHeader(response.user));
+    } catch (_error) {
+      window.location.replace(LOGIN_PAGE);
+    }
+  }
+
+  checkSession();
 })();

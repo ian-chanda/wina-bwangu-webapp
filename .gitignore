@@ -4,8 +4,19 @@ PROJECT_MEMORY.md
 # Personal auth walkthrough notes — not part of the deliverable
 AUTH_EXPLAINER.md
 
+# Personal presentation prep — not part of the deliverable
+PRESENTATION_ROLE1.md
+
 # Team briefs / assignment instructions — never push these
 info/
+
+# Python / Flask
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+instance/
+*.sqlite
 
 # macOS
 .DS_Store

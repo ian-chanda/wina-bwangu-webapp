@@ -1,129 +1,130 @@
-// Role 4: Forms & Input UI.
-// Scope: booth dropdown -> location auto-fill, service dropdown (filtered to
-// that booth) -> rate auto-fill, and TransactionID auto-generation on submit.
-// Validation/feedback (Role 5) and the dashboard refresh (Role 6) are not
-// implemented here -- this just pushes the new record and leaves hooks for them.
-(() => {
-  const $ = id => document.getElementById(id);
-  const form = $('transactionForm'),
-        boothSelect = $('boothSelect'), locationDisplay = $('locationDisplay'),
-        serviceSelect = $('serviceSelect'), rateDisplay = $('rateDisplay'),
-        amountInput = $('amountInput'), afterTaxDisplay = $('afterTaxDisplay'),
-        idDisplay = $('idDisplay');
+(async () => {
+  const $ = (id) => document.getElementById(id);
+  const form = $("transactionForm");
+  const boothSelect = $("boothSelect");
+  const locationDisplay = $("locationDisplay");
+  const serviceSelect = $("serviceSelect");
+  const rateDisplay = $("rateDisplay");
+  const amountInput = $("amountInput");
+  const afterTaxDisplay = $("afterTaxDisplay");
+  const idDisplay = $("idDisplay");
+  const submitBtn = form ? form.querySelector('button[type="submit"]') : null;
 
-  const money = n => 'K' + Number(n).toLocaleString('en-ZM', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  let meta = null;
 
-  const showNextId = () => { idDisplay.value = generateTransactionId(transactions); };
+  function setNextId(nextId) {
+    if (idDisplay) idDisplay.value = nextId || "";
+  }
 
-  // ---- Booth dropdown, built from data.js's `booths` ----
   function fillBooths() {
-    Object.keys(booths).forEach(id => {
-      const o = document.createElement('option');
-      o.value = id;
-      o.textContent = `${id} — ${booths[id]}`;
-      boothSelect.appendChild(o);
+    Object.keys(meta.booths).forEach((id) => {
+      const option = document.createElement("option");
+      option.value = id;
+      option.textContent = id + " — " + meta.booths[id];
+      boothSelect.appendChild(option);
     });
   }
 
   function resetServiceDropdown(placeholder) {
-    serviceSelect.innerHTML = `<option value="">${placeholder}</option>`;
-    rateDisplay.value = '';
+    serviceSelect.innerHTML = '<option value="">' + placeholder + "</option>";
+    rateDisplay.value = "";
   }
 
-  boothSelect.addEventListener('change', () => {
-    const boothID = boothSelect.value;
-    updateAfterTax();
-    if (!boothID) {
-      locationDisplay.value = '';
-      serviceSelect.disabled = true;
-      resetServiceDropdown('Select booth first');
-      return;
-    }
-    locationDisplay.value = getBoothLocation(boothID);
+  function fillServices(booth) {
     serviceSelect.disabled = false;
-    resetServiceDropdown('Select service');
-    getBoothServices(boothID).forEach(s => {
-      const o = document.createElement('option');
-      o.value = s; o.textContent = s;
-      serviceSelect.appendChild(o);
+    resetServiceDropdown("Select service");
+    (meta.boothServices[booth] || []).forEach((service) => {
+      const option = document.createElement("option");
+      option.value = service;
+      option.textContent = service;
+      serviceSelect.appendChild(option);
     });
-  });
+  }
 
-  serviceSelect.addEventListener('change', () => {
-    const service = serviceSelect.value;
-    rateDisplay.value = service ? services[service].rate : '';
-    updateAfterTax();
-  });
-
-  // ---- Tax preview, via app.js's calcAmountAndTax ----
   function updateAfterTax() {
     const amount = Number(amountInput.value);
-    if (!(amount > 0)) { afterTaxDisplay.value = ''; return; }
-    const { amountAfterTax, taxAmount, taxRate } = calcAmountAndTax(amount);
-    afterTaxDisplay.value = `${money(amountAfterTax)} (VAT ${(taxRate * 100).toFixed(0)}%: ${money(taxAmount)})`;
-  }
-  amountInput.addEventListener('input', updateAfterTax);
-
-  // ---- Submit: relies on the form's own `required` attributes for now.
-  // Role 5 layers real validation (required-field messages, duplicate checks,
-  // the monthly-limit credit check) on top of this. ----
-  form.addEventListener('submit', ev => {
-    ev.preventDefault();
-  
-    // Get values from the form
-    const booth = boothSelect.value;
-    const service = serviceSelect.value;
-    const amount = Number(amountInput.value);
-  
-    // Role 5 validation
-    const error = validateTransaction({
-      booth,
-      service,
-      amount
-    });
-  
-    // Stop if validation fails
-    if (error) {
-      showToast(error, 'error');
+    if (!(amount > 0)) {
+      afterTaxDisplay.value = "";
       return;
     }
-  
-    // Create transaction after validation passes
-    const record = {
-      id: generateTransactionId(transactions),
-      booth: booth,
-      location: getBoothLocation(booth),
-      service: service,
-      rate: services[service].rate,
-      amount: amount
-    };
-  
-    // Save transaction
-    transactions.push(record);
-  
-    // Role 5 success feedback
-    showToast('Transaction saved successfully!', 'success');
-  
-    // Role 6 dashboard hook
-    document.dispatchEvent(
-      new CustomEvent('transaction:added', { detail: record })
-    );
-  
-    if (typeof refreshDashboard === 'function') {
-      refreshDashboard();
-    }
-  
-    resetForm();
-  });
+    const { amountAfterTax, taxAmount, taxRate } = calcAmountAndTax(amount);
+    afterTaxDisplay.value =
+      formatMoney(amountAfterTax) +
+      " (VAT " +
+      (taxRate * 100).toFixed(0) +
+      "%: " +
+      formatMoney(taxAmount) +
+      ")";
+  }
 
   function resetForm() {
     form.reset();
-    boothSelect.dispatchEvent(new Event('change'));
-    afterTaxDisplay.value = '';
-    showNextId();
+    boothSelect.dispatchEvent(new Event("change"));
+    afterTaxDisplay.value = "";
   }
-  $('clearBtn').addEventListener('click', resetForm);
 
-  fillBooths();
-  showNextId();
+  boothSelect.addEventListener("change", () => {
+    const booth = boothSelect.value;
+    updateAfterTax();
+
+    if (!booth) {
+      locationDisplay.value = "";
+      serviceSelect.disabled = true;
+      resetServiceDropdown("Select booth first");
+      return;
+    }
+
+    locationDisplay.value = meta.booths[booth];
+    fillServices(booth);
+  });
+
+  serviceSelect.addEventListener("change", () => {
+    const service = serviceSelect.value;
+    rateDisplay.value = service ? meta.services[service].rate : "";
+    updateAfterTax();
+  });
+
+  amountInput.addEventListener("input", updateAfterTax);
+
+  form.addEventListener("submit", async (event) => {
+    event.preventDefault();
+
+    const booth = boothSelect.value;
+    const service = serviceSelect.value;
+    const amount = Number(amountInput.value);
+    const error = validateTransaction({ booth, service, amount });
+
+    if (error) {
+      showToast(error, "error");
+      return;
+    }
+
+    if (submitBtn) submitBtn.disabled = true;
+
+    try {
+      const response = await WB.createTransaction({ booth, service, amount });
+      showToast("Transaction saved successfully!", "success");
+      resetForm();
+      setNextId(response.transaction.nextId);
+      if (typeof refreshDashboard === "function") refreshDashboard();
+    } catch (err) {
+      showToast(err.message, "error");
+      if (err.message === "Authentication required") {
+        window.location.replace("/auth.html");
+      }
+    } finally {
+      if (submitBtn) submitBtn.disabled = false;
+    }
+  });
+
+  $("clearBtn").addEventListener("click", resetForm);
+
+  try {
+    meta = await WB.meta();
+    fillBooths();
+    resetServiceDropdown("Select booth first");
+    setNextId(meta.nextId);
+  } catch (err) {
+    showToast("Could not load app data. Is the server running?", "error");
+  }
 })();
