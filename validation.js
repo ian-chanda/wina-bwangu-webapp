@@ -46,20 +46,7 @@ function validateTransaction({ booth, service, amount }) {
         return "Invalid service selected!!";
     }
 
-    // Checks for the same transaction
-    const duplicate = transactions.some(transaction => {
-
-        return (
-            transaction.booth === booth &&
-            transaction.service === service &&
-            Number(transaction.amount) === Number(amount)
-        );
-
-    });
-
-    if (duplicate) {
-        return "This transaction already exists.";
-    }
+    
 
 // Calculate the current total for the selected service
     let currentTotal = 0;
