@@ -188,15 +188,6 @@ def create_transaction():
 
     transactions = all_transactions()
 
-    duplicate = any(
-        transaction["booth"] == booth
-        and transaction["service"] == service
-        and float(transaction["amount"]) == amount
-        for transaction in transactions
-    )
-    if duplicate:
-        return error("This transaction already exists.", 409)
-
     limit = can_accept_transaction(transactions, service, amount)
     if not limit["allowed"]:
         response = {"error": limit["reason"]}

@@ -168,15 +168,23 @@ class ApiRegressionTests(unittest.TestCase):
         self.assertEqual(response.get_json()["remaining"], 851.0)
         self.assertEqual(response.get_json()["shortfall"], 149.0)
 
-    def test_duplicate_transaction_is_rejected(self):
+    def test_duplicate_transaction_is_allowed(self):
         self.register()
         self.login()
 
-        response = self.client.post(
+        first = self.client.post(
             "/api/transactions",
-            json={"booth": "Wina1", "service": "Airtel Money", "amount": 964},
+            json={"booth": "Wina1", "service": "Airtel Money", "amount": 100},
         )
-        self.assertEqual(response.status_code, 409)
+        second = self.client.post(
+            "/api/transactions",
+            json={"booth": "Wina1", "service": "Airtel Money", "amount": 100},
+        )
+
+        self.assertEqual(first.status_code, 201)
+        self.assertEqual(second.status_code, 201)
+        self.assertEqual(first.get_json()["transaction"]["id"], "WB0000309")
+        self.assertEqual(second.get_json()["transaction"]["id"], "WB0000310")
 
     def test_zero_or_negative_amount_is_rejected(self):
         self.register()
